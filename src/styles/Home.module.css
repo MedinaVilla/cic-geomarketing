@@ -1,0 +1,65 @@
+
+
+@media screen and (min-width: 0px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* align-items: column; */
+        padding: 18px;
+    }
+    
+    .mapContainer{
+       height: 80vh;
+       width: 100%;
+       flex-grow:1;
+       transition: flex-grow 2000ms linear;
+    
+    }
+    
+    .animated{
+        flex-grow: 1;
+        /* max-width: 40%; */
+    }
+    
+    .container{
+        width: 80vw;
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+    }
+    
+    .circularProgress{
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        z-index: 9999;
+    }
+
+    .aside{
+        transition: flex-grow 200ms linear;
+        align-content: center 
+    }
+}
+
+@media screen and (min-width: 760px) {
+
+    .wrapper{
+        flex-direction: row;
+    }
+    /* .aside{
+        max-width: 100vw;
+    } */
+
+    .container{
+        width: 30vw;
+        padding: 48px;
+    }
+}
+
+@media screen and (min-width: 960px) {}
+
+@media screen and (min-width: 1320px) {
+ 
+}
