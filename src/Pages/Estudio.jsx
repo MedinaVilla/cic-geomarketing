@@ -58,7 +58,7 @@ export default function Estudio() {
         } else {
           console.log("NO ES CLINICA")
           let random = Math.random() * 100; // Generacion de numero aleatorio entre 0 y 10
-          if (random <= 70) {
+          if (random <= 50) {
             setResults(["Lugar apto", "success"]);
           } else {
             setResults(["Lugar no apto", "error"]);

@@ -60,9 +60,9 @@ import styles from "./../styles/Maps.module.css";
 const Maps = () => {
     return (
         <div className={styles.container}>
-        <Carousel navButtonsAlwaysVisible fullHeightHover={false} autoPlay={false}>
+        <Carousel navButtonsAlwaysVisible  autoPlay={false}>
             <Paper >
-                <img style={{ width: "100%" }} src={Anexo1} alt="anexo1"/>
+                <img style={{ width: "100%", height:"55vh" }} src={Anexo1} alt="anexo1"/>
             </Paper>
             <Paper >
                 <img style={{ width: "100%" }} src={Anexo2}  alt="anexo2"/>
